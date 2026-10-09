@@ -7,7 +7,7 @@ body{
     text-align: center;
 }
 h1{
-    color:#172b70;
+    color:#d7dae7;
     font-size: 38px;
     margin-bottom: 10px;
 }
@@ -68,4 +68,23 @@ form-group{
 }
 footer{
     text-align: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color:navy;
+    color:white;
+    padding: 15px;
+}
+logo{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+header h1{
+    margin: 0;
+}
+header p{
+    margin: 5px 0 0;
 }
