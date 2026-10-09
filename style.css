@@ -54,3 +54,7 @@ input,textarea,select{
     border-radius: 5px;
     max-width: 100%;
 }
+ul{
+    list-style-type: none;
+    padding: 0;
+}
