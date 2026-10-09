@@ -38,6 +38,7 @@ table{
     border-collapse: collapse;
     background-color:white;
     margin: 20px auto;
+    border-bottom-left-radius: 8px;
 }
 th, td{
     border: 1px solid #cccccc;
@@ -57,4 +58,14 @@ input,textarea,select{
 ul{
     list-style-type: none;
     padding: 0;
+}
+form-group{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    max-width: 400px;
+}
+footer{
+    text-align: center;
 }
